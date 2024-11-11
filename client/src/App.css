@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #767f91;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.name-selector {
+  margin: 20px 20px;
+  min-width: 200px;
+}
+
+ .products-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  overflow: visible !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-item-content {
+  overflow: visible;
+}
